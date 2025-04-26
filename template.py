@@ -19,7 +19,7 @@ list_of_files = [
 
 
 for filepath in list_of_files:
-   filepath = Path(filepath)
+   filepath = Path(filepath) # it makes the path suitable for the OS you are using like windos "/" and linux "\"
    filedir, filename = os.path.split(filepath)
 
    if filedir !="":
