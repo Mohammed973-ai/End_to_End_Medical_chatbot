@@ -16,7 +16,3 @@ text_chunks = text_split(extracted_data)
 embeddings = download_HuggingFaceEmbeddings()
 ## Storing chunks in vectorDB
 vector_store = PineconeVectorStore.from_documents(text_chunks, embeddings, index_name=index_name)
-
-
-
-

@@ -1,7 +1,4 @@
-from langchain.prompts import PromptTemplate
-from langchain_groq import ChatGroq
-from langchain.chains import RetrievalQA
-from langchain_huggingface import HuggingFaceBgeEmbeddings
+from langchain.embeddings import HuggingFaceBgeEmbeddings
 from langchain.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
