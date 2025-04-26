@@ -4,3 +4,5 @@ langchain == 0.3.24
 flask
 langchain_community
 langchain_groq
+pypdf
+langchain_pinecone
